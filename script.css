@@ -1,0 +1,38 @@
+/* sets margin, padding, and border box for entire page */
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0; 
+}
+    /* adds background color to header */
+header {
+    background-color: goldenrod;
+}
+
+/* Change color and font of body */
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation ul li {
+    float: left;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.intro {
+    background-color: lightblue;
+}
+
+/* change font size, family, and margin for intro h1 */
+.intro h1 {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+/* change size and add padding for bio photo */
+.bioPhoto {
+    height: 200px;
+    padding: 20px;
+}
