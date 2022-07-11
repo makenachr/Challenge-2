@@ -2,37 +2,70 @@
 * {
    box-sizing: border-box;
    padding: 0;
-   margin: 0; 
-}
-    /* adds background color to header */
-header {
-    background-color: goldenrod;
+   margin: 0;
 }
 
 /* Change color and font of body */
 body {
-    background-color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
 }
 
-.navigation ul li {
-    float: left;
-    display: inline-block;
+/* updates nav bar to be horizontal, to the right of the page, and have padding */
+.navigation li {
     list-style-type: none;
+    display: inline;
+    float: left;
+    padding-left: 20px;
 }
 
+.navigation li a {
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: goldenrod;
+}
+
+/* changes background color of intro */
 .intro {
-    background-color: lightblue;
+    background-color: goldenrod;
 }
 
 /* change font size, family, and margin for intro h1 */
 .intro h1 {
-    font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 20px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', serif;
 }
 /* change size and add padding for bio photo */
-.bioPhoto {
-    height: 200px;
+img {
+    width: 50%;
+    min-width: 200px;
     padding: 20px;
 }
+
+.bio {
+    margin: 20px;
+}
+
+.placeholder-image-1 {
+    width: 50%;
+    min-width: 400px;
+}
+
+.appCard {
+    background-color: darkgoldenrod;
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-width: 1px;
+}
+
+.contact {
+    list-style-type: none;
+    margin: 20px;
+}
+
